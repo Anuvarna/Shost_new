@@ -1,0 +1,33 @@
+.landing { min-height: 100vh; position: relative; overflow: hidden; }
+.landing-orb { position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none; }
+.orb1 { width: 500px; height: 500px; background: rgba(109,40,217,0.2); top: -150px; left: -150px; }
+.orb2 { width: 400px; height: 400px; background: rgba(139,92,246,0.15); top: 100px; right: -100px; }
+.orb3 { width: 350px; height: 350px; background: rgba(76,29,149,0.2); bottom: -100px; left: 40%; }
+
+.landing-nav { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 3rem; position: relative; z-index: 2; }
+.landing-logo { font-size: 1.5rem; font-weight: 800; color: #f1f5f9; }
+.landing-logo span { color: #a78bfa; }
+
+.landing-hero { text-align: center; padding: 5rem 2rem 4rem; position: relative; z-index: 2; }
+.hero-icon { display: flex; justify-content: center; margin-bottom: 1.5rem; }
+.hero-title { font-size: 4.5rem; font-weight: 900; color: #f1f5f9; letter-spacing: -2px; line-height: 1; margin-bottom: 0.75rem; }
+.hero-title span { color: #a78bfa; }
+.hero-tagline { font-size: 1.1rem; color: #a78bfa; font-weight: 500; margin-bottom: 1rem; letter-spacing: 1px; text-transform: uppercase; }
+.hero-desc { max-width: 540px; margin: 0 auto 2.5rem; color: #94a3b8; font-size: 1rem; line-height: 1.7; }
+.hero-cta {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  color: #fff; padding: 0.85rem 2.5rem; border-radius: 50px;
+  font-size: 1rem; font-weight: 600; border: none; cursor: pointer;
+  box-shadow: 0 8px 32px rgba(124,58,237,0.4); transition: all 0.2s;
+}
+.hero-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(124,58,237,0.5); }
+.hero-cta span { font-size: 1.1rem; }
+
+.landing-features { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem 5rem; position: relative; z-index: 2; }
+.feature-card { background: rgba(30,30,53,0.8); border: 1px solid rgba(139,92,246,0.18); border-radius: 16px; padding: 1.75rem 1.5rem; backdrop-filter: blur(10px); }
+.feature-icon { font-size: 2rem; margin-bottom: 1rem; }
+.feature-card h3 { font-size: 1rem; font-weight: 700; color: #f1f5f9; margin-bottom: 0.5rem; }
+.feature-card p { font-size: 0.875rem; color: #94a3b8; line-height: 1.6; }
+
+.landing-footer { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; border-top: 1px solid rgba(139,92,246,0.15); font-size: 0.875rem; color: #f1f5f9; font-weight: 700; position: relative; z-index: 2; }
