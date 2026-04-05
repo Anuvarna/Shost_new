@@ -46,7 +46,7 @@ Visit: http://localhost:5173
 |---------|------------------------|------------|
 | Admin   | admin@hostx.com        | admin123   |
 | Warden  | warden@hostx.com       | warden123  |
-| Student | student@hostx.com      | student123 |
+| Student | student@hostx.com      | student321 |
 
 ---
 
